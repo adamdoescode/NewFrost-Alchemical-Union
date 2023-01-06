@@ -204,6 +204,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em;
+    font-size: 20px;
 }
 
 .callText {
@@ -215,7 +216,7 @@
     border-radius: 10px;
     width: 120px;
     height: 40px;
-    font-size: 1.2em;
+    font-size: 20px;
 }
 .spacerCallContentBox {
     flex: 1;
@@ -224,4 +225,13 @@
 .footer {
     flex: auto;
     height: 30px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+}
+
+.footer a {
+    color: #F9FAF8;
 }
