@@ -163,7 +163,7 @@
 }
 
 .quoteContent {
-    flex: 2;
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -172,7 +172,15 @@
 .quoteSpacer {
     flex: 1;
 }
-
+.quoteText {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quoteSource {
+    font-size: 28px;
+    font-weight: bold;
+}
 
 
 .callToAction {
