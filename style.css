@@ -1,40 +1,69 @@
 * {
     border: solid red 1px;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
+
+.header, .firstSection, .footer {
+    background-color: #1f2937;
+}
+
+.infoSection, .callToAction {
+    background-color: white;
+}
+
 
 .header {
     flex: auto;
     width: auto;
     height: 30px;
-    background-color: rgba(17, 17, 147, 0.532);
+    display: flex;
+    justify-content: space-between;
 }
+
+.headerItem {
+    color: #F9FAF8;
+}
+
+.headerLogo {
+    position: left;
+}
+
+
 
 .firstSection {
     flex: auto;
     width: auto;
     height: 100px;
-    background-color: rgba(17, 17, 147, 0.532);
+    /* background-color: rgba(17, 17, 147, 0.532); */
 }
 
 .infoSection {
     flex: auto;
     height: 100px;
-    background-color: rgb(249, 246, 233);
+    /* background-color: rgb(249, 246, 233); */
 }
 
 .quoteSection {
     flex: auto;
     height: 100px;
-    background-color: lightgray;
+    background-color: rgb(176, 171, 171);
 }
 
 .callToAction {
     flex: auto;
     height: 100px;
-    background-color: rgb(249, 246, 233);
+    /* background-color: rgb(249, 246, 233); */
+}
+
+.footer {
+    flex: auto;
+    height: 30px;
 }
