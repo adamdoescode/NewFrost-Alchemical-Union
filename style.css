@@ -1,0 +1,40 @@
+* {
+    border: solid red 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: auto;
+    width: auto;
+    height: 30px;
+    background-color: rgba(17, 17, 147, 0.532);
+}
+
+.firstSection {
+    flex: auto;
+    width: auto;
+    height: 100px;
+    background-color: rgba(17, 17, 147, 0.532);
+}
+
+.infoSection {
+    flex: auto;
+    height: 100px;
+    background-color: rgb(249, 246, 233);
+}
+
+.quoteSection {
+    flex: auto;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.callToAction {
+    flex: auto;
+    height: 100px;
+    background-color: rgb(249, 246, 233);
+}
