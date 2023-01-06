@@ -1,5 +1,5 @@
 * {
-    border: solid red 1px;
+    /* border: solid red 1px; */
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@
     margin: 0;
 }
 
-.header, .firstSection, .footer {
+.header, .heroSection, .footer {
     background-color: #1f2937;
 }
 
@@ -23,26 +23,63 @@
 .header {
     flex: auto;
     width: auto;
-    height: 30px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .headerItem {
     color: #F9FAF8;
 }
+.headerImgNewFrostUnionLogo {
+    height: 25px;
+}
 
-.headerLogo {
+.HeaderLogo {
     position: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
 }
 
 
-
-.firstSection {
+.heroSection {
     flex: auto;
     width: auto;
-    height: 100px;
-    /* background-color: rgba(17, 17, 147, 0.532); */
+    height: 500px;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroText{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.joinButtonHero {
+    background-color: lightskyblue;
+    border-radius: 15px;
+    width: 100px;
+}
+.NewFrostUnionLogo {
+    flex: 1;
+    display: flex;
+    padding: 3em;
+}
+.imgNewFrostUnionLogo {
+    width: 400px;
+    /* height: 400px; */
+}
+.heroSpacer {
+    flex: 1;
 }
 
 .infoSection {
